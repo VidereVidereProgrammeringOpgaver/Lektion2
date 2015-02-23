@@ -11,6 +11,6 @@ public interface IFunktionalitet {
 
 	// returnér perosn navn udfra CPR-nr
 
-	String getNavn(String cpr) throws IData.DataException; // returnér perosn navn udfra CPR-nr
+	String getNavn(String cpr) throws IData.DataException; 
 
 }

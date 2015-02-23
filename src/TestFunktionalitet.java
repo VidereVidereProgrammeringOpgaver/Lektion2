@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class TestFunktionalitet {
-
+//syos
+//test
 	/**
 	 * Test the thingy program
 	 * @throws DataException 
@@ -14,7 +15,7 @@ public class TestFunktionalitet {
 		while(scanner.hasNext()){
 			String dataInput = scanner.nextLine();
 			if(dataInput.contains("bmi")){
-				System.out.println("Skriv et CPR for at fŒr BMI");
+				System.out.println("Skriv et CPR for at fï¿½r BMI");
 				try {
 					System.out.println(e.getBMI(scanner.nextLine()));
 				} catch (IData.DataException e2) {
@@ -22,7 +23,7 @@ public class TestFunktionalitet {
 				}
 			}
 			if(dataInput.contains("navn")){
-				System.out.println("Skriv et CPR for at fŒr navn");
+				System.out.println("Skriv et CPR for at fï¿½r navn");
 				try {
 					System.out.println(e.getNavn(scanner.nextLine()));
 				} catch (IData.DataException e1) {
