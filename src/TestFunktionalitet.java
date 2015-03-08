@@ -9,11 +9,15 @@ public class TestFunktionalitet {
 	public static void main(String[] args) {
 		IFunktionalitet e = new Funktionalitet();
 		Scanner scanner = new Scanner(System.in);
-
+		
 		System.out.println("Klar til at modtage kommando!");
 		System.out.println("Kommandoer: hent navn, hent bmi");
 		while(scanner.hasNext()){
+			
 			String dataInput = scanner.nextLine();
+			
+			
+			
 			if(dataInput.contains("bmi")){
 				System.out.println("Skriv et CPR for at f�r BMI");
 				try {

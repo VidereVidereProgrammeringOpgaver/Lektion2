@@ -4,6 +4,7 @@ public class Data implements IData
 
 {
 
+	//Lars er en prut fis jk jk jk
 	private class Person {
 
 		String cpr;
@@ -36,7 +37,7 @@ public class Data implements IData
 
 		personer = new ArrayList<Person>();
 
-		// Tilf¿j personer
+		// Tilfï¿½j personer
 
 		personer.add(new Person("234567-8901", "Ib Olsen", 1.80, 75.0));
 
@@ -68,7 +69,7 @@ public class Data implements IData
 
 	}
 
-	//Returner personens v¾gt
+	//Returner personens vï¿½gt
 
 	public double getVaegt(String cpr) throws DataException{
 		int i = 0;
@@ -86,7 +87,7 @@ public class Data implements IData
 	}
 
 
-	//Returner personens h¿jde
+	//Returner personens hï¿½jde
 
 	public double getHoejde(String cpr) throws DataException{
 		int i = 0;
